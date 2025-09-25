@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cookie Clicker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Cookie Clicker</h1>
+
+  <button id="cookie">🍪</button>
+  <p>Cookies: <span id="score">0</span></p>
+  <p>Last Rarity: <span id="rarity">None</span></p>
+
+  <h2>Upgrades</h2>
+  <button id="worker">Buy Worker (100 cookies)</button>
+  <button id="factory">Buy Factory (500 cookies)</button>
+
+  <h2>Rarity Tracker</h2>
+  <ul id="rarityList">
+    <li>Common: 0</li>
+    <li>Epic: 0</li>
+    <li>Rare: 0</li>
+    <li>Legendary: 0</li>
+    <li>Mythical: 0</li>
+    <li>Cosmo: 0</li>
+    <li>Prizmatic: 0</li>
+    <li>I̷̙̎̎m̵̎̌͜ȁ̶͔̓g̴͙̺̿̅i̷̧̙͑n̸̮̱̅a̷̤̳̒̑t̸̃ͅî̵͓͘ỏ̸͉̲n̷͍̐̔ͅ:̸͎͚̀:: 0</li>
+    <li>Crystallized: 0</li>
+  </ul>
+
+  <h2>Crafting Station</h2>
+  <button id="craftBoost">Craft Boost (Epic + Rare)</button>
+  <button id="craftSuperClick">Craft Super Click (Legendary + Mythical)</button>
+  <button id="craftRealityBender">Craft Reality Bender (Prizmatic + Imagination)</button>
+  <p id="craftResult">Craft something powerful using your rarities!</p>
+
+  <h2>Cookie Skins</h2>
+  <select id="skinSelector">
+    <option value="🍪">Cookie</option>
+    <option value="🍩">Donut</option>
+    <option value="🍰">Cake</option>
+    <option value="🧁">Cupcake</option>
+  </select>
+
+  <script src="script.js"></script>
+</body>
+</html>
